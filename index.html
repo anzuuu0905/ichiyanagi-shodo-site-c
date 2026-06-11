@@ -1,0 +1,1833 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="岐阜県海津市の書道教室。明治神宮全国少年新春書道展、10年連続優秀団体賞。文部科学省後援検定実施校。段位の取れる本格指導。平田・高須の2教室、無料体験随時受付。">
+<title>一柳書道教室 | 岐阜県海津市 平田・高須教室</title>
+<meta property="og:type" content="website">
+<meta property="og:title" content="一柳書道教室 | 岐阜県海津市 平田・高須教室">
+<meta property="og:description" content="明治神宮10連覇、文部科学省後援検定実施校。段位の取れる教室。岐阜県海津市・平田／高須の2拠点。">
+<meta property="og:url" content="https://ichiyanagi-shodo.example.com/">
+<meta property="og:site_name" content="一柳書道教室">
+<meta property="og:locale" content="ja_JP">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Shippori+Mincho:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "一柳書道教室",
+  "telephone": "+81-584-67-3365",
+  "url": "https://ichiyanagi-shodo.example.com/",
+  "description": "岐阜県海津市の書道教室。明治神宮全国少年新春書道展10年連続優秀団体賞、文部科学省後援検定実施校。",
+  "location": [
+    {
+      "@type": "Place",
+      "name": "平田教室",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "平田町野寺974",
+        "addressLocality": "海津市",
+        "addressRegion": "岐阜県",
+        "addressCountry": "JP"
+      }
+    },
+    {
+      "@type": "Place",
+      "name": "高須教室",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "海津町馬目265",
+        "addressLocality": "海津市",
+        "addressRegion": "岐阜県",
+        "addressCountry": "JP"
+      }
+    }
+  ],
+  "hasOfferingCatalog": {
+    "@type": "OfferCatalog",
+    "name": "コース一覧",
+    "itemListElement": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "かきかた"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "毛筆"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "硬筆"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "ペン字"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "実用書"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "資格検定"}}
+    ]
+  }
+}
+</script>
+<style>
+/* =========================================================
+   PATTERN C — 漆黒の威厳 / 黒地に金、月白の文字
+   設計思想: 陰翳礼讃。タイポグラフィ主役、写真は低彩度で背景に沈める。
+   ========================================================= */
+
+:root {
+  /* 配色 */
+  --bg:           #0a0a0a;   /* 漆黒 */
+  --bg-alt:       #131311;   /* セクション交互背景 */
+  --bg-deep:      #050505;   /* footer / hero */
+  --ink:          #f0ede5;   /* 月白 */
+  --ink-mute:     #8a8378;   /* 温かみあるグレー */
+  --ink-soft:     #b8b1a3;
+  --gold:         #c9a84c;   /* 金 / 受賞・印・罫線 */
+  --gold-deep:    #8a7333;
+  --vermilion:    #b04030;   /* 朱・印章のみ */
+  --rule:         #2a2a26;   /* 極暗の罫線 */
+  --rule-gold:    rgba(201,168,76,.28);
+
+  /* タイポ */
+  --ff-mincho:    'Shippori Mincho', 'Yu Mincho', 'YuMincho',
+                  'Hiragino Mincho ProN', 'HiraMinProN-W3', serif;
+  --ff-en:        'Cormorant Garamond', 'Times New Roman', serif;
+  --ff-num:       'Cormorant Garamond', 'Gill Sans', 'Optima', serif;
+
+  /* レイアウト */
+  --max-w:        1240px;
+  --max-narrow:   880px;
+  --pad-x:        clamp(20px, 5vw, 64px);
+  --section-y:    clamp(96px, 14vw, 180px);
+}
+
+* , *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  background: var(--bg);
+}
+body {
+  font-family: var(--ff-mincho);
+  font-size: 16px;
+  line-height: 1.95;
+  color: var(--ink);
+  background: var(--bg);
+  font-weight: 300;
+  font-feature-settings: "palt" 1;
+  font-variant-numeric: lining-nums tabular-nums;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+img { display: block; max-width: 100%; height: auto; }
+a   { color: inherit; text-decoration: none; transition: color .3s ease, opacity .3s ease; }
+ul  { list-style: none; }
+button { cursor: pointer; border: none; background: none; font: inherit; color: inherit; }
+input, textarea, select { font: inherit; color: inherit; }
+
+::selection { background: var(--gold); color: var(--bg); }
+
+:focus-visible {
+  outline: 1px solid var(--gold);
+  outline-offset: 4px;
+}
+
+/* ---------- 共通レイアウト ---------- */
+.wrap        { width: 100%; max-width: var(--max-w);   margin: 0 auto; padding-left: var(--pad-x); padding-right: var(--pad-x); }
+.wrap--narrow{ max-width: var(--max-narrow); }
+.section     { padding-top: var(--section-y); padding-bottom: var(--section-y); position: relative; }
+.section--alt { background: var(--bg-alt); }
+
+/* ---------- 見出し共通（eyebrow / title） ---------- */
+.eyebrow {
+  display: inline-block;
+  font-family: var(--ff-en);
+  font-weight: 300;
+  font-size: 11px;
+  letter-spacing: 0.62em;
+  text-transform: uppercase;
+  color: var(--gold);
+  padding-left: 56px;
+  position: relative;
+  margin-bottom: 36px;
+}
+.eyebrow::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 50%;
+  width: 42px; height: 1px;
+  background: var(--gold);
+  opacity: .8;
+}
+.s-title {
+  font-family: var(--ff-mincho);
+  font-weight: 500;
+  font-size: clamp(28px, 4vw, 44px);
+  line-height: 1.5;
+  letter-spacing: 0.12em;
+  color: var(--ink);
+}
+.s-title .en {
+  display: block;
+  font-family: var(--ff-en);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.42em;
+  color: var(--gold);
+  margin-top: 18px;
+  opacity: .82;
+}
+.s-lead {
+  margin-top: 36px;
+  max-width: 640px;
+  color: var(--ink-soft);
+  font-size: 15px;
+  line-height: 2.1;
+}
+
+/* 細罫線（金） */
+.hairline {
+  width: 1px; height: 56px;
+  background: var(--gold);
+  opacity: .7;
+  display: block;
+  margin: 0 auto;
+}
+.hairline--h {
+  width: 100%; height: 1px;
+  background: var(--rule);
+}
+.hairline--h-gold {
+  width: 100%; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--rule-gold) 18%, var(--rule-gold) 82%, transparent);
+}
+
+/* ---------- 共通CTA ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 38px;
+  font-family: var(--ff-mincho);
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.36em;
+  color: var(--ink);
+  border: 1px solid var(--gold);
+  background: transparent;
+  transition: background .35s ease, color .35s ease, border-color .35s ease;
+  position: relative;
+}
+.btn::after {
+  content: "";
+  width: 26px; height: 1px;
+  background: currentColor;
+  transition: width .35s ease;
+}
+.btn:hover { background: var(--gold); color: var(--bg); }
+.btn:hover::after { width: 40px; }
+.btn--ghost { border-color: var(--ink-mute); }
+.btn--tel   { border-color: var(--gold); font-family: var(--ff-num); letter-spacing: 0.18em; font-size: 18px; padding: 14px 30px; }
+
+/* ====================================================
+   HEADER
+   ==================================================== */
+.site-header {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  z-index: 50;
+  padding: 26px var(--pad-x);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(180deg, rgba(10,10,10,.92) 0%, rgba(10,10,10,.55) 70%, transparent 100%);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition: background .4s ease;
+}
+.site-header.is-scrolled {
+  background: rgba(10,10,10,.96);
+  border-bottom: 1px solid var(--rule);
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.brand-mark {
+  width: 44px; height: 44px;
+  border: 1px solid var(--gold);
+  display: grid; place-items: center;
+  font-family: var(--ff-mincho);
+  font-weight: 500;
+  font-size: 22px;
+  color: var(--gold);
+  letter-spacing: 0;
+}
+.brand-text {
+  font-family: var(--ff-mincho);
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  font-size: 15px;
+  color: var(--ink);
+}
+.brand-text small {
+  display: block;
+  font-family: var(--ff-en);
+  font-style: italic;
+  font-size: 10px;
+  letter-spacing: 0.42em;
+  color: var(--gold);
+  margin-top: 4px;
+  opacity: .85;
+}
+.gnav ul {
+  display: flex;
+  gap: 36px;
+}
+.gnav a {
+  font-family: var(--ff-en);
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.55em;
+  color: var(--ink);
+  opacity: .85;
+  padding: 6px 0;
+  position: relative;
+}
+.gnav a:hover { color: var(--gold); opacity: 1; }
+.header-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 22px;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  font-size: 12px;
+  letter-spacing: 0.28em;
+}
+.header-cta:hover { background: var(--gold); color: var(--bg); }
+.menu-btn { display: none; }
+
+/* ====================================================
+   HERO — 漆黒、中央タイポ、巨大「書」を背景に薄く
+   ==================================================== */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  background: var(--bg-deep);
+  display: grid;
+  align-items: center;
+  overflow: hidden;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.hero::before {
+  /* 巨大な「書」字を背景に薄く */
+  content: "書";
+  position: absolute;
+  right: -4vw;
+  top: 50%;
+  transform: translateY(-52%);
+  font-family: var(--ff-mincho);
+  font-weight: 500;
+  font-size: clamp(420px, 70vw, 1200px);
+  line-height: 1;
+  color: var(--ink);
+  opacity: 0.028;
+  pointer-events: none;
+  letter-spacing: 0;
+}
+.hero-photo {
+  position: absolute;
+  inset: 0;
+  background: url('assets/hero.webp') center 30% / cover no-repeat;
+  filter: grayscale(1) brightness(.35) contrast(1.05);
+  opacity: .42;
+  z-index: 0;
+}
+.hero-photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 50% 70%, rgba(10,10,10,.4) 0%, rgba(10,10,10,.95) 75%),
+    linear-gradient(180deg, rgba(10,10,10,.5) 0%, rgba(10,10,10,.2) 50%, rgba(10,10,10,.92) 100%);
+}
+.hero-inner {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 var(--pad-x);
+  text-align: center;
+}
+.hero-eyebrow {
+  display: inline-block;
+  font-family: var(--ff-en);
+  font-size: 11px;
+  letter-spacing: 0.78em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 56px;
+}
+.hero-eyebrow::before,
+.hero-eyebrow::after {
+  content: "";
+  display: inline-block;
+  width: 56px; height: 1px;
+  background: var(--gold);
+  vertical-align: middle;
+  margin: 0 24px 4px;
+  opacity: .85;
+}
+.hero-title {
+  font-family: var(--ff-mincho);
+  font-weight: 500;
+  font-size: clamp(44px, 7.5vw, 96px);
+  line-height: 1.32;
+  letter-spacing: 0.14em;
+  color: var(--ink);
+}
+.hero-title em {
+  font-style: normal;
+  color: var(--gold);
+}
+.hero-sub {
+  margin-top: 56px;
+  font-size: 15px;
+  line-height: 2.4;
+  letter-spacing: 0.18em;
+  color: var(--ink-soft);
+  max-width: 720px;
+  margin-left: auto; margin-right: auto;
+}
+.hero-meta {
+  margin-top: 64px;
+  display: inline-flex;
+  align-items: center;
+  gap: 28px;
+  font-family: var(--ff-en);
+  font-size: 11px;
+  letter-spacing: 0.5em;
+  color: var(--gold);
+  text-transform: uppercase;
+}
+.hero-meta::before,
+.hero-meta::after {
+  content: "";
+  width: 1px; height: 38px;
+  background: var(--gold);
+  opacity: .7;
+}
+.hero-actions {
+  margin-top: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+.hero-scroll {
+  position: absolute;
+  bottom: 36px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--ff-en);
+  font-size: 10px;
+  letter-spacing: 0.6em;
+  color: var(--ink-mute);
+  text-transform: uppercase;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.hero-scroll::after {
+  content: "";
+  width: 1px; height: 48px;
+  background: var(--gold);
+  opacity: .6;
+  animation: scrollLine 2.4s ease-in-out infinite;
+  transform-origin: top;
+}
+@keyframes scrollLine {
+  0%, 100% { transform: scaleY(.3); opacity: .3; }
+  50%      { transform: scaleY(1);  opacity: .8; }
+}
+
+/* hero 右下 縦書き署名 */
+.hero-vertical {
+  position: absolute;
+  right: 36px;
+  top: 50%;
+  transform: translateY(-50%);
+  writing-mode: vertical-rl;
+  font-family: var(--ff-mincho);
+  font-size: 12px;
+  letter-spacing: 0.36em;
+  color: var(--ink-mute);
+  z-index: 3;
+  opacity: .8;
+}
+
+/* ====================================================
+   ACHIEVEMENTS — 受賞歴・最重要セクション、表彰状風
+   ==================================================== */
+.ach {
+  background: var(--bg);
+  position: relative;
+}
+.ach::before {
+  /* 上部の金細罫線 */
+  content: "";
+  position: absolute;
+  top: 0; left: 50%;
+  transform: translateX(-50%);
+  width: min(80%, 800px);
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold) 50%, transparent);
+  opacity: .6;
+}
+.ach-head { text-align: center; margin-bottom: 96px; }
+.ach-head .eyebrow { padding-left: 0; }
+.ach-head .eyebrow::before { display: none; }
+.ach-head .s-title { letter-spacing: 0.18em; }
+
+.ach-stamp-row {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  margin-bottom: 64px;
+  flex-wrap: wrap;
+}
+.stamp {
+  width: 132px; height: 132px;
+  border: 1px solid var(--vermilion);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: var(--vermilion);
+  font-family: var(--ff-mincho);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.16em;
+  line-height: 1.55;
+  background: radial-gradient(circle at 50% 50%, rgba(176,64,48,.06), transparent 70%);
+  position: relative;
+}
+.stamp::before {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  border: 1px solid var(--vermilion);
+  border-radius: 50%;
+  opacity: .42;
+}
+.stamp em {
+  display: block;
+  font-style: normal;
+  font-family: var(--ff-num);
+  font-size: 26px;
+  letter-spacing: 0;
+  margin-bottom: 4px;
+  color: var(--vermilion);
+}
+
+.ach-list {
+  max-width: 760px;
+  margin: 0 auto;
+}
+.ach-item {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 40px;
+  align-items: baseline;
+  padding: 36px 0;
+  border-bottom: 1px solid var(--rule-gold);
+  position: relative;
+}
+.ach-item:first-child { border-top: 1px solid var(--rule-gold); }
+.ach-year {
+  font-family: var(--ff-en);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 28px;
+  color: var(--gold);
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+.ach-year small {
+  display: block;
+  font-style: normal;
+  font-family: var(--ff-mincho);
+  font-size: 11px;
+  letter-spacing: 0.32em;
+  color: var(--ink-mute);
+  margin-top: 4px;
+}
+.ach-body {
+  font-family: var(--ff-mincho);
+  font-size: 17px;
+  line-height: 1.9;
+  letter-spacing: 0.08em;
+  color: var(--ink);
+}
+.ach-body small {
+  display: block;
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--ink-mute);
+  letter-spacing: 0.12em;
+}
+
+/* ====================================================
+   PHILOSOPHY — 縦書き引用
+   ==================================================== */
+.phi {
+  background: var(--bg-alt);
+  position: relative;
+  overflow: hidden;
+}
+.phi::before {
+  content: "道";
+  position: absolute;
+  left: -2vw;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--ff-mincho);
+  font-weight: 500;
+  font-size: clamp(380px, 60vw, 900px);
+  line-height: 1;
+  color: var(--ink);
+  opacity: 0.025;
+  pointer-events: none;
+}
+.phi-inner {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+.phi-text { max-width: 540px; }
+.phi-text .eyebrow { padding-left: 0; }
+.phi-text .eyebrow::before { display: none; }
+.phi-text p {
+  margin-top: 32px;
+  color: var(--ink-soft);
+  font-size: 15px;
+  line-height: 2.1;
+}
+.phi-quote {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phi-quote-inner {
+  writing-mode: vertical-rl;
+  font-family: var(--ff-mincho);
+  font-weight: 500;
+  font-size: clamp(20px, 2.2vw, 26px);
+  line-height: 2.4;
+  letter-spacing: 0.4em;
+  color: var(--ink);
+  padding: 60px 40px;
+  border-left: 1px solid var(--rule-gold);
+  border-right: 1px solid var(--rule-gold);
+  max-height: 480px;
+}
+.phi-quote-inner em {
+  font-style: normal;
+  color: var(--gold);
+}
+.phi-quote-sig {
+  position: absolute;
+  bottom: 24px;
+  right: 0;
+  font-family: var(--ff-en);
+  font-style: italic;
+  font-size: 12px;
+  letter-spacing: 0.42em;
+  color: var(--gold);
+  opacity: .8;
+}
+
+/* ====================================================
+   COURSES — 6コース表形式
+   ==================================================== */
+.courses {
+  background: var(--bg);
+}
+.courses-head {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.courses-head .eyebrow { padding-left: 0; }
+.courses-head .eyebrow::before { display: none; }
+
+.course-table {
+  border-top: 1px solid var(--rule-gold);
+  border-bottom: 1px solid var(--rule-gold);
+  max-width: 980px;
+  margin: 0 auto;
+}
+.course-row {
+  display: grid;
+  grid-template-columns: 96px 1fr 220px;
+  gap: 36px;
+  align-items: center;
+  padding: 40px 12px;
+  border-bottom: 1px solid var(--rule);
+  transition: background .3s ease;
+}
+.course-row:last-child { border-bottom: none; }
+.course-row:hover { background: rgba(201,168,76,.04); }
+.course-num {
+  font-family: var(--ff-en);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 30px;
+  color: var(--gold);
+  letter-spacing: 0.08em;
+}
+.course-name {
+  font-family: var(--ff-mincho);
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 0.16em;
+  color: var(--ink);
+}
+.course-name span {
+  display: block;
+  font-family: var(--ff-en);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 0.36em;
+  color: var(--gold);
+  margin-top: 6px;
+  opacity: .8;
+}
+.course-desc {
+  font-size: 14px;
+  color: var(--ink-soft);
+  line-height: 1.9;
+  letter-spacing: 0.04em;
+}
+.course-tag {
+  display: inline-block;
+  padding: 6px 14px;
+  border: 1px solid var(--rule-gold);
+  font-family: var(--ff-en);
+  font-size: 10px;
+  letter-spacing: 0.4em;
+  color: var(--gold);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.courses-note {
+  margin-top: 56px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--ink-mute);
+  letter-spacing: 0.16em;
+}
+
+/* ====================================================
+   TEACHER — モノクロ写真 + 経歴表
+   ==================================================== */
+.teacher {
+  background: var(--bg-alt);
+}
+.teacher-inner {
+  display: grid;
+  grid-template-columns: 480px 1fr;
+  gap: 80px;
+  align-items: center;
+}
+.teacher-photo {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border: 1px solid var(--rule-gold);
+}
+.teacher-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(1) contrast(1.05) brightness(.85);
+}
+.teacher-photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 50%, rgba(10,10,10,.6) 100%);
+}
+.teacher-photo-cap {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  font-family: var(--ff-en);
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 0.5em;
+  color: var(--gold);
+  text-transform: uppercase;
+  z-index: 2;
+}
+.teacher-body .eyebrow { padding-left: 0; }
+.teacher-body .eyebrow::before { display: none; }
+.teacher-name {
+  font-family: var(--ff-mincho);
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  color: var(--ink);
+  margin-top: 24px;
+}
+.teacher-name small {
+  display: block;
+  font-family: var(--ff-en);
+  font-style: italic;
+  font-size: 13px;
+  letter-spacing: 0.4em;
+  color: var(--gold);
+  margin-top: 10px;
+  text-transform: uppercase;
+  opacity: .85;
+}
+.teacher-bio {
+  margin-top: 36px;
+  color: var(--ink-soft);
+  font-size: 15px;
+  line-height: 2.15;
+  letter-spacing: 0.04em;
+  max-width: 540px;
+}
+.teacher-cv {
+  margin-top: 48px;
+  border-top: 1px solid var(--rule-gold);
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  column-gap: 32px;
+}
+.teacher-cv dt {
+  padding: 18px 0;
+  font-family: var(--ff-en);
+  font-style: italic;
+  font-size: 12px;
+  letter-spacing: 0.36em;
+  color: var(--gold);
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--rule);
+}
+.teacher-cv dd {
+  padding: 18px 0;
+  font-size: 14px;
+  color: var(--ink);
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid var(--rule);
+}
+
+/* ====================================================
+   CLASSROOM — 平田・高須 2拠点
+   ==================================================== */
+.classroom {
+  background: var(--bg);
+}
+.classroom-head { text-align: center; margin-bottom: 88px; }
+.classroom-head .eyebrow { padding-left: 0; }
+.classroom-head .eyebrow::before { display: none; }
+
+.classroom-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+}
+.cls-card {
+  border: 1px solid var(--rule-gold);
+  padding: 48px 44px;
+  background: linear-gradient(180deg, rgba(201,168,76,.018), transparent 60%);
+  position: relative;
+}
+.cls-num {
+  font-family: var(--ff-en);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 38px;
+  color: var(--gold);
+  letter-spacing: 0.08em;
+  position: absolute;
+  top: -22px;
+  left: 44px;
+  background: var(--bg);
+  padding: 0 14px;
+}
+.cls-name {
+  font-family: var(--ff-mincho);
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.22em;
+  color: var(--ink);
+  margin-bottom: 28px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--rule-gold);
+}
+.cls-name small {
+  display: block;
+  font-family: var(--ff-en);
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 0.44em;
+  color: var(--gold);
+  margin-top: 10px;
+  text-transform: uppercase;
+  opacity: .85;
+}
+.cls-row {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 20px;
+  padding: 14px 0;
+  border-bottom: 1px dashed var(--rule);
+  font-size: 14px;
+}
+.cls-row:last-of-type { border-bottom: none; }
+.cls-row dt {
+  font-family: var(--ff-en);
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 0.38em;
+  color: var(--gold);
+  text-transform: uppercase;
+  padding-top: 4px;
+}
+.cls-row dd {
+  font-family: var(--ff-mincho);
+  color: var(--ink);
+  letter-spacing: 0.08em;
+  line-height: 1.85;
+}
+.cls-row dd em {
+  font-style: normal;
+  font-family: var(--ff-num);
+  color: var(--gold);
+  font-size: 16px;
+}
+.cls-map {
+  margin-top: 28px;
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--rule-gold);
+  overflow: hidden;
+  filter: grayscale(.65) brightness(.7) contrast(1.05);
+}
+.cls-map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* ====================================================
+   SCHEDULE — 営業日表
+   ==================================================== */
+.schedule {
+  background: var(--bg-alt);
+}
+.schedule-head { text-align: center; margin-bottom: 64px; }
+.schedule-head .eyebrow { padding-left: 0; }
+.schedule-head .eyebrow::before { display: none; }
+.sch-table {
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-top: 1px solid var(--rule-gold);
+  border-bottom: 1px solid var(--rule-gold);
+}
+.sch-table th, .sch-table td {
+  padding: 22px 12px;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  border-bottom: 1px solid var(--rule);
+}
+.sch-table th {
+  font-family: var(--ff-en);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 0.38em;
+  color: var(--gold);
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 24px;
+}
+.sch-table td.has { color: var(--ink); font-family: var(--ff-num); letter-spacing: 0.04em; }
+.sch-table td.no  { color: var(--ink-mute); opacity: .5; }
+.sch-table td.no::before { content: "—"; }
+.sch-table tbody tr:last-child td { border-bottom: none; }
+.schedule-note {
+  margin-top: 32px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--ink-mute);
+  letter-spacing: 0.14em;
+}
+
+/* ====================================================
+   CTA — 最終フォーム
+   ==================================================== */
+.cta {
+  background: var(--bg-deep);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.cta::before {
+  content: "求";
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--ff-mincho);
+  font-size: clamp(360px, 60vw, 800px);
+  color: var(--gold);
+  opacity: 0.025;
+  pointer-events: none;
+}
+.cta-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 760px;
+  margin: 0 auto;
+}
+.cta .eyebrow { padding-left: 0; }
+.cta .eyebrow::before { display: none; }
+.cta-title {
+  font-family: var(--ff-mincho);
+  font-weight: 500;
+  font-size: clamp(28px, 4vw, 44px);
+  line-height: 1.7;
+  letter-spacing: 0.16em;
+  color: var(--ink);
+}
+.cta-title em {
+  font-style: normal;
+  color: var(--gold);
+}
+.cta-sub {
+  margin-top: 36px;
+  font-size: 15px;
+  color: var(--ink-soft);
+  line-height: 2.1;
+  letter-spacing: 0.06em;
+}
+.cta-actions {
+  margin-top: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+.cta-tel {
+  margin-top: 56px;
+  padding-top: 48px;
+  border-top: 1px solid var(--rule-gold);
+}
+.cta-tel-label {
+  font-family: var(--ff-en);
+  font-style: italic;
+  font-size: 12px;
+  letter-spacing: 0.42em;
+  color: var(--gold);
+  text-transform: uppercase;
+}
+.cta-tel-num {
+  display: block;
+  margin-top: 12px;
+  font-family: var(--ff-num);
+  font-weight: 300;
+  font-size: clamp(36px, 5vw, 54px);
+  letter-spacing: 0.08em;
+  color: var(--ink);
+}
+.cta-tel-hour {
+  margin-top: 12px;
+  font-size: 12px;
+  color: var(--ink-mute);
+  letter-spacing: 0.16em;
+}
+
+/* ====================================================
+   FOOTER
+   ==================================================== */
+.site-footer {
+  background: var(--bg-deep);
+  border-top: 1px solid var(--rule-gold);
+  padding: 80px var(--pad-x) 40px;
+  color: var(--ink-mute);
+}
+.foot-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 56px;
+  padding-bottom: 56px;
+  border-bottom: 1px solid var(--rule);
+}
+.foot-brand {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 28px;
+}
+.foot-brand .brand-mark { border-color: var(--gold); color: var(--gold); }
+.foot-brand .brand-text { color: var(--ink); }
+.foot-tag {
+  font-size: 13px;
+  line-height: 2;
+  color: var(--ink-soft);
+  max-width: 320px;
+}
+.foot-col h4 {
+  font-family: var(--ff-en);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 0.42em;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.foot-col address {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 2;
+  color: var(--ink);
+  letter-spacing: 0.06em;
+}
+.foot-col address small {
+  display: block;
+  font-family: var(--ff-mincho);
+  color: var(--ink-mute);
+  font-size: 11px;
+  margin-top: 4px;
+  letter-spacing: 0.18em;
+}
+.foot-tel {
+  font-family: var(--ff-num);
+  font-size: 22px;
+  letter-spacing: 0.08em;
+  color: var(--gold);
+  display: block;
+  margin-top: 12px;
+}
+.foot-bottom {
+  padding-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--ff-en);
+  font-size: 11px;
+  letter-spacing: 0.36em;
+  color: var(--ink-mute);
+  text-transform: uppercase;
+}
+.foot-bottom .credit {
+  font-family: var(--ff-mincho);
+  letter-spacing: 0.14em;
+  text-transform: none;
+}
+
+/* ====================================================
+   RESPONSIVE
+   ==================================================== */
+@media (max-width: 1024px) {
+  .gnav ul { gap: 24px; }
+  .gnav a  { font-size: 10px; letter-spacing: 0.42em; }
+  .header-cta { display: none; }
+  .phi-inner,
+  .teacher-inner,
+  .classroom-grid,
+  .foot-inner { grid-template-columns: 1fr; gap: 56px; }
+  .teacher-photo { max-width: 460px; margin: 0 auto; }
+  .hero-vertical { display: none; }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --section-y: clamp(72px, 12vw, 110px);
+    --pad-x: 20px;
+  }
+  .menu-btn {
+    display: grid;
+    place-items: center;
+    width: 44px; height: 44px;
+    border: 1px solid var(--gold);
+    position: relative;
+    z-index: 60;
+  }
+  .menu-btn span {
+    display: block;
+    width: 18px; height: 1px;
+    background: var(--gold);
+    position: relative;
+    transition: background .3s ease;
+  }
+  .menu-btn span::before,
+  .menu-btn span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 18px; height: 1px;
+    background: var(--gold);
+    transition: transform .3s ease;
+  }
+  .menu-btn span::before { top: -6px; }
+  .menu-btn span::after  { top:  6px; }
+  .menu-btn.is-open span { background: transparent; }
+  .menu-btn.is-open span::before { transform: translateY(6px) rotate(45deg); }
+  .menu-btn.is-open span::after  { transform: translateY(-6px) rotate(-45deg); }
+
+  .gnav {
+    position: fixed;
+    top: 0; right: 0;
+    width: 100%; height: 100vh;
+    background: rgba(5,5,5,.98);
+    display: grid;
+    place-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .35s ease;
+    z-index: 40;
+  }
+  .gnav.is-open { opacity: 1; pointer-events: auto; }
+  .gnav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+  }
+  .gnav a { font-size: 14px; letter-spacing: 0.5em; }
+
+  .brand-text { font-size: 13px; letter-spacing: 0.18em; }
+  .brand-text small { font-size: 9px; letter-spacing: 0.36em; }
+  .brand-mark { width: 38px; height: 38px; font-size: 18px; }
+
+  .hero { min-height: 88vh; }
+  .hero-eyebrow { font-size: 10px; letter-spacing: 0.5em; margin-bottom: 36px; }
+  .hero-eyebrow::before,
+  .hero-eyebrow::after { width: 28px; margin: 0 12px 4px; }
+  .hero-title { font-size: clamp(34px, 11vw, 56px); letter-spacing: 0.1em; }
+  .hero-sub { font-size: 13px; line-height: 2.2; letter-spacing: 0.12em; margin-top: 36px; }
+  .hero-meta { gap: 16px; font-size: 10px; letter-spacing: 0.36em; margin-top: 44px; }
+  .hero-meta::before, .hero-meta::after { height: 28px; }
+  .hero-actions { margin-top: 48px; }
+  .hero-scroll { display: none; }
+
+  .stamp { width: 108px; height: 108px; font-size: 11px; }
+  .stamp em { font-size: 22px; }
+  .ach-stamp-row { gap: 16px; }
+  .ach-item {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 28px 0;
+  }
+  .ach-year { font-size: 22px; }
+
+  .phi-quote-inner {
+    font-size: 18px;
+    line-height: 2.2;
+    padding: 40px 24px;
+    max-height: 380px;
+  }
+
+  .course-row {
+    grid-template-columns: 64px 1fr;
+    gap: 18px;
+    padding: 28px 8px;
+  }
+  .course-tag { grid-column: 1 / -1; justify-self: start; }
+  .course-num { font-size: 22px; }
+  .course-name { font-size: 18px; letter-spacing: 0.12em; }
+  .course-name span { font-size: 10px; letter-spacing: 0.28em; }
+
+  .teacher-photo { max-width: none; }
+  .teacher-name { font-size: 24px; letter-spacing: 0.14em; }
+  .teacher-cv {
+    grid-template-columns: 96px 1fr;
+    column-gap: 18px;
+  }
+  .teacher-cv dt { font-size: 10px; letter-spacing: 0.28em; }
+
+  .cls-card { padding: 36px 24px; }
+  .cls-name { font-size: 20px; letter-spacing: 0.16em; }
+  .cls-num { font-size: 30px; left: 24px; }
+
+  .sch-table th, .sch-table td {
+    padding: 14px 6px;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+  }
+  .sch-table th { font-size: 10px; letter-spacing: 0.24em; padding-left: 12px; }
+
+  .cta-actions { flex-direction: column; align-items: stretch; gap: 16px; }
+  .btn { justify-content: center; padding: 18px 24px; }
+
+  .foot-bottom {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .ach-stamp-row { gap: 12px; }
+  .stamp { width: 96px; height: 96px; font-size: 10px; }
+  .stamp em { font-size: 18px; }
+}
+
+/* ---------- Reveal animation ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 1.2s cubic-bezier(.16,1,.3,1), transform 1.2s cubic-bezier(.16,1,.3,1);
+}
+.reveal.is-visible { opacity: 1; transform: translateY(0); }
+.reveal-d1 { transition-delay: .12s; }
+.reveal-d2 { transition-delay: .24s; }
+.reveal-d3 { transition-delay: .36s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .hero-scroll::after { animation: none; }
+  html { scroll-behavior: auto; }
+}
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     HEADER
+============================================================ -->
+<header class="site-header" id="siteHeader">
+  <a href="#top" class="brand" aria-label="一柳書道教室 トップへ">
+    <span class="brand-mark" aria-hidden="true">柳</span>
+    <span class="brand-text">
+      一柳書道教室
+      <small>ICHIYANAGI SHODO</small>
+    </span>
+  </a>
+  <nav class="gnav" id="gnav" aria-label="グローバルナビゲーション">
+    <ul>
+      <li><a href="#achievements">受賞歴</a></li>
+      <li><a href="#philosophy">指導理念</a></li>
+      <li><a href="#courses">六つの学び</a></li>
+      <li><a href="#teacher">講師</a></li>
+      <li><a href="#classroom">両教室</a></li>
+      <li><a href="#contact">体験申込</a></li>
+    </ul>
+  </nav>
+  <a href="#contact" class="header-cta">無料体験を申し込む</a>
+  <button type="button" class="menu-btn" id="menuBtn" aria-label="メニューを開く" aria-controls="gnav" aria-expanded="false">
+    <span aria-hidden="true"></span>
+  </button>
+</header>
+
+<!-- ============================================================
+     HERO
+============================================================ -->
+<section class="hero" id="top" aria-label="ヒーロー">
+  <div class="hero-photo" aria-hidden="true"></div>
+
+  <div class="hero-vertical" aria-hidden="true">岐阜・海津&nbsp;&nbsp;一柳書道教室</div>
+
+  <div class="hero-inner">
+    <p class="hero-eyebrow reveal">SINCE 1995 &nbsp;・&nbsp; ICHIYANAGI</p>
+    <h1 class="hero-title reveal reveal-d1">
+      段位の、取れる教室。
+    </h1>
+    <p class="hero-sub reveal reveal-d2">
+      明治神宮全国少年新春書道展、10年連続優秀団体賞。<br>
+      文部科学省後援検定実施校。岐阜県海津市、平田と高須の2教室。
+    </p>
+    <p class="hero-meta reveal reveal-d2">EST. 1995 &nbsp; ・ &nbsp; KAIZU, GIFU</p>
+    <div class="hero-actions reveal reveal-d3">
+      <a href="#contact" class="btn">無料体験を申し込む</a>
+      <a href="#achievements" class="btn btn--ghost">受賞歴を見る</a>
+    </div>
+  </div>
+
+  <a href="#achievements" class="hero-scroll" aria-label="次のセクションへ">SCROLL</a>
+</section>
+
+<!-- ============================================================
+     ACHIEVEMENTS
+============================================================ -->
+<section class="section ach" id="achievements" aria-labelledby="ach-title">
+  <div class="wrap">
+    <div class="ach-head reveal">
+      <span class="eyebrow">ACHIEVEMENTS</span>
+      <h2 class="s-title" id="ach-title">
+        十年連続、優秀団体賞。
+        <span class="en">THE WEIGHT OF A DECADE</span>
+      </h2>
+    </div>
+
+    <div class="ach-stamp-row reveal reveal-d1" aria-label="主要実績">
+      <div class="stamp">
+        <div>
+          <em>10</em>
+          年連続<br>優秀団体賞
+        </div>
+      </div>
+      <div class="stamp">
+        <div>
+          <em>5</em>
+          名輩出<br>第一席賞
+        </div>
+      </div>
+      <div class="stamp">
+        <div>
+          文部科学省<br>後援<br>検定実施校
+        </div>
+      </div>
+    </div>
+
+    <dl class="ach-list reveal reveal-d2">
+      <div class="ach-item">
+        <dt class="ach-year">2015 — 2024<small>連続十年</small></dt>
+        <dd class="ach-body">
+          明治神宮全国少年新春書道展　優秀団体賞（10年連続受賞）
+          <small>全国規模の最高権威。指導の継続性と質を、団体として証明する賞。</small>
+        </dd>
+      </div>
+      <div class="ach-item">
+        <dt class="ach-year">継続中<small>5名輩出</small></dt>
+        <dd class="ach-body">
+          明治神宮全国少年新春書道展　第一席賞（個人）
+          <small>当教室から、これまでに5名の生徒が個人最高位を受賞。</small>
+        </dd>
+      </div>
+      <div class="ach-item">
+        <dt class="ach-year">指定校<small>正式実施</small></dt>
+        <dd class="ach-body">
+          文部科学省後援　硬筆書写・毛筆書写検定　実施校
+          <small>段位認定を、教室内で正式に受けられる体制を整えています。</small>
+        </dd>
+      </div>
+      <div class="ach-item">
+        <dt class="ach-year">1995<small>創業</small></dt>
+        <dd class="ach-body">
+          岐阜県海津市にて開塾、約30年。
+          <small>幼児から大学生・大人まで、入会金・年会費なしで指導を継続。</small>
+        </dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<!-- ============================================================
+     PHILOSOPHY
+============================================================ -->
+<section class="section phi" id="philosophy" aria-labelledby="phi-title">
+  <div class="wrap phi-inner">
+    <div class="phi-text reveal">
+      <span class="eyebrow">PHILOSOPHY</span>
+      <h2 class="s-title" id="phi-title">
+        文字は、人を映す。
+        <span class="en">CHARACTER MIRRORS THE PERSON</span>
+      </h2>
+      <p>
+        書は、技を競うものではない。
+        筆を持つ姿勢、墨と紙に向かう間（ま）、
+        そして書き終えた一枚に、その人がそのまま立ち上がる。
+      </p>
+      <p>
+        当教室は、段位の取得と全国大会の実績を支柱としつつ、
+        本来の書道がもつ静謐さを失わぬ指導を、30年続けてきました。
+      </p>
+    </div>
+    <figure class="phi-quote reveal reveal-d2">
+      <blockquote class="phi-quote-inner">
+        筆を、整える。<br>
+        <em>呼吸を、整える。</em><br>
+        そして、字が、整う。
+      </blockquote>
+      <figcaption class="phi-quote-sig">— ICHIYANAGI</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============================================================
+     COURSES
+============================================================ -->
+<section class="section courses" id="courses" aria-labelledby="courses-title">
+  <div class="wrap">
+    <div class="courses-head reveal">
+      <span class="eyebrow">SIX DISCIPLINES</span>
+      <h2 class="s-title" id="courses-title">
+        六つの、学び。
+        <span class="en">FROM BRUSH TO SIGNATURE</span>
+      </h2>
+      <p class="s-lead" style="margin-left:auto;margin-right:auto;">
+        幼児の入門から、大人の段位取得まで。
+        対象年齢と目的別に、6つの正式コースを設けています。
+      </p>
+    </div>
+
+    <div class="course-table reveal reveal-d1">
+      <article class="course-row">
+        <div class="course-num">01</div>
+        <div>
+          <div class="course-name">かきかた<span>KAKIKATA — for kids</span></div>
+          <p class="course-desc">幼児〜小学校低学年の入門。鉛筆の持ち方から、文字の骨格を整える指導まで。</p>
+        </div>
+        <span class="course-tag">幼児・小学生</span>
+      </article>
+      <article class="course-row">
+        <div class="course-num">02</div>
+        <div>
+          <div class="course-name">毛筆<span>MOHITSU — brush calligraphy</span></div>
+          <p class="course-desc">小学生〜大人。楷書から始め、行書・草書、明治神宮展への出品まで段階指導。</p>
+        </div>
+        <span class="course-tag">全年齢</span>
+      </article>
+      <article class="course-row">
+        <div class="course-num">03</div>
+        <div>
+          <div class="course-name">硬筆<span>KOHITSU — pen practice</span></div>
+          <p class="course-desc">鉛筆・ボールペンによる楷書の基本。学校提出物や検定に直結する技術を養う。</p>
+        </div>
+        <span class="course-tag">小学生〜大人</span>
+      </article>
+      <article class="course-row">
+        <div class="course-num">04</div>
+        <div>
+          <div class="course-name">ペン字<span>PENJI — adult signature</span></div>
+          <p class="course-desc">大人のためのペン字。署名・宛名書き・履歴書まで、実生活で使える美しい文字へ。</p>
+        </div>
+        <span class="course-tag">大人</span>
+      </article>
+      <article class="course-row">
+        <div class="course-num">05</div>
+        <div>
+          <div class="course-name">実用書<span>JITSUYO — practical writing</span></div>
+          <p class="course-desc">熨斗袋・芳名帳・年賀状など、冠婚葬祭と暮らしの場で求められる筆遣いを習得。</p>
+        </div>
+        <span class="course-tag">大人</span>
+      </article>
+      <article class="course-row">
+        <div class="course-num">06</div>
+        <div>
+          <div class="course-name">資格検定<span>CERTIFICATION — official rank</span></div>
+          <p class="course-desc">文部科学省後援の硬筆書写・毛筆書写検定に正式対応。段位の認定まで教室内で完結。</p>
+        </div>
+        <span class="course-tag">段位取得</span>
+      </article>
+    </div>
+
+    <p class="courses-note">月4回・1回60〜90分。振替可。入会金・年会費は不要です。</p>
+  </div>
+</section>
+
+<!-- ============================================================
+     TEACHER
+============================================================ -->
+<section class="section teacher" id="teacher" aria-labelledby="teacher-title">
+  <div class="wrap teacher-inner">
+    <figure class="teacher-photo reveal">
+      <img src="assets/teacher.webp" alt="一柳書道教室 指導者" loading="lazy" decoding="async">
+      <figcaption class="teacher-photo-cap">SENSEI</figcaption>
+    </figure>
+    <div class="teacher-body reveal reveal-d1">
+      <span class="eyebrow">SENSEI</span>
+      <h2 class="s-title" id="teacher-title">
+        書を、伝える人。
+        <span class="en">THE TEACHER</span>
+      </h2>
+      <p class="teacher-name">
+        一柳　先生
+        <small>ICHIYANAGI &nbsp; SENSEI</small>
+      </p>
+      <p class="teacher-bio">
+        国立大学にて書道を専門に学び、海津市に開塾して30年。
+        明治神宮全国少年新春書道展では10年連続で優秀団体賞、
+        5名の生徒が個人最高位の第一席賞を受賞してきました。
+        技の高さを語るのではなく、技を支える「姿勢」と「呼吸」を、ひとりずつに手渡しで伝えています。
+      </p>
+      <dl class="teacher-cv">
+        <dt>専門</dt>
+        <dd>毛筆・硬筆・実用書・段位指導</dd>
+        <dt>実績</dt>
+        <dd>明治神宮全国少年新春書道展 優秀団体賞（10年連続）</dd>
+        <dt>認定</dt>
+        <dd>文部科学省後援 書写検定 実施校 指導者</dd>
+        <dt>指導歴</dt>
+        <dd>1995年 海津市にて開塾、約30年</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CLASSROOM
+============================================================ -->
+<section class="section classroom" id="classroom" aria-labelledby="classroom-title">
+  <div class="wrap">
+    <div class="classroom-head reveal">
+      <span class="eyebrow">TWO ATELIERS</span>
+      <h2 class="s-title" id="classroom-title">
+        平田と、高須。
+        <span class="en">HIRATA &nbsp; ・ &nbsp; TAKASU</span>
+      </h2>
+      <p class="s-lead" style="margin-left:auto;margin-right:auto;">
+        岐阜県海津市の2拠点で稽古をしています。
+        営業日が異なるため、通いやすい方をお選びください。
+      </p>
+    </div>
+
+    <div class="classroom-grid">
+      <article class="cls-card reveal reveal-d1">
+        <span class="cls-num">01</span>
+        <h3 class="cls-name">
+          平田教室
+          <small>HIRATA STUDIO</small>
+        </h3>
+        <dl>
+          <div class="cls-row">
+            <dt>Address</dt>
+            <dd>岐阜県海津市平田町野寺974</dd>
+          </div>
+          <div class="cls-row">
+            <dt>Hours</dt>
+            <dd>
+              月・火・木　<em>16:00 — 20:00</em><br>
+              水　<em>18:30 — 20:00</em>
+            </dd>
+          </div>
+          <div class="cls-row">
+            <dt>Closed</dt>
+            <dd>日曜・祝日</dd>
+          </div>
+          <div class="cls-row">
+            <dt>Parking</dt>
+            <dd>無料 <em>5</em> 台分</dd>
+          </div>
+        </dl>
+        <div class="cls-map" aria-label="平田教室の地図">
+          <iframe
+            src="https://www.google.com/maps?q=%E5%B2%90%E9%98%9C%E7%9C%8C%E6%B5%B7%E6%B4%A5%E5%B8%82%E5%B9%B3%E7%94%B0%E7%94%BA%E9%87%8E%E5%AF%BA974&output=embed"
+            title="平田教室の地図"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </article>
+
+      <article class="cls-card reveal reveal-d2">
+        <span class="cls-num">02</span>
+        <h3 class="cls-name">
+          高須教室
+          <small>TAKASU STUDIO</small>
+        </h3>
+        <dl>
+          <div class="cls-row">
+            <dt>Address</dt>
+            <dd>岐阜県海津市海津町馬目265</dd>
+          </div>
+          <div class="cls-row">
+            <dt>Hours</dt>
+            <dd>
+              火・金　<em>16:00 — 20:00</em><br>
+              土　<em>13:00 — 20:00</em>
+            </dd>
+          </div>
+          <div class="cls-row">
+            <dt>Closed</dt>
+            <dd>日曜・祝日</dd>
+          </div>
+          <div class="cls-row">
+            <dt>Parking</dt>
+            <dd>無料 <em>5</em> 台分</dd>
+          </div>
+        </dl>
+        <div class="cls-map" aria-label="高須教室の地図">
+          <iframe
+            src="https://www.google.com/maps?q=%E5%B2%90%E9%98%9C%E7%9C%8C%E6%B5%B7%E6%B4%A5%E5%B8%82%E6%B5%B7%E6%B4%A5%E7%94%BA%E9%A6%AC%E7%9B%AE265&output=embed"
+            title="高須教室の地図"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SCHEDULE
+============================================================ -->
+<section class="section schedule" aria-labelledby="schedule-title">
+  <div class="wrap">
+    <div class="schedule-head reveal">
+      <span class="eyebrow">SCHEDULE</span>
+      <h2 class="s-title" id="schedule-title">
+        週の、流れ。
+        <span class="en">WEEKLY HOURS</span>
+      </h2>
+    </div>
+
+    <table class="sch-table reveal reveal-d1">
+      <thead>
+        <tr>
+          <th scope="col">教室</th>
+          <th scope="col">月</th>
+          <th scope="col">火</th>
+          <th scope="col">水</th>
+          <th scope="col">木</th>
+          <th scope="col">金</th>
+          <th scope="col">土</th>
+          <th scope="col">日・祝</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">平田</th>
+          <td class="has">16:00 — 20:00</td>
+          <td class="has">16:00 — 20:00</td>
+          <td class="has">18:30 — 20:00</td>
+          <td class="has">16:00 — 20:00</td>
+          <td class="no"></td>
+          <td class="no"></td>
+          <td class="no"></td>
+        </tr>
+        <tr>
+          <th scope="row">高須</th>
+          <td class="no"></td>
+          <td class="has">16:00 — 20:00</td>
+          <td class="no"></td>
+          <td class="no"></td>
+          <td class="has">16:00 — 20:00</td>
+          <td class="has">13:00 — 20:00</td>
+          <td class="no"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p class="schedule-note">月4回・1回60〜90分。振替可。月謝はお問い合わせください。</p>
+  </div>
+</section>
+
+<!-- ============================================================
+     CTA
+============================================================ -->
+<section class="section cta" id="contact" aria-labelledby="cta-title">
+  <div class="wrap cta-inner reveal">
+    <span class="eyebrow">TRIAL</span>
+    <h2 class="cta-title" id="cta-title">
+      まずは、<em>一度</em>、筆を持ちに。
+    </h2>
+    <p class="cta-sub">
+      無料体験は随時受付。<br>
+      平田教室・高須教室、いずれも見学のみのご来訪も歓迎します。
+    </p>
+    <div class="cta-actions">
+      <a href="mailto:info@ichiyanagi-shodo.example.com?subject=%E7%84%A1%E6%96%99%E4%BD%93%E9%A8%93%E3%81%AE%E7%94%B3%E3%81%97%E8%BE%BC%E3%81%BF" class="btn">無料体験を申し込む</a>
+      <a href="#classroom" class="btn btn--ghost">両教室を見る</a>
+    </div>
+
+    <div class="cta-tel">
+      <p class="cta-tel-label">DIRECT LINE</p>
+      <a href="tel:0584-67-3365" class="cta-tel-num">0584 — 67 — 3365</a>
+      <p class="cta-tel-hour">平日 16:00 — 20:00 受付（日曜・祝日を除く）</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer class="site-footer">
+  <div class="foot-inner">
+    <div class="foot-col">
+      <div class="foot-brand">
+        <span class="brand-mark" aria-hidden="true">柳</span>
+        <span class="brand-text">
+          一柳書道教室
+          <small>ICHIYANAGI SHODO</small>
+        </span>
+      </div>
+      <p class="foot-tag">
+        岐阜県海津市の書道教室。明治神宮10連覇、文部科学省後援検定実施校。<br>
+        段位の取れる、本格指導の教室。
+      </p>
+    </div>
+
+    <div class="foot-col">
+      <h4>HIRATA</h4>
+      <address>
+        〒503-0312<br>
+        岐阜県海津市平田町野寺974
+        <small>月・火・木 16:00 — 20:00 ／ 水 18:30 — 20:00</small>
+      </address>
+    </div>
+
+    <div class="foot-col">
+      <h4>TAKASU</h4>
+      <address>
+        〒503-0628<br>
+        岐阜県海津市海津町馬目265
+        <small>火・金 16:00 — 20:00 ／ 土 13:00 — 20:00</small>
+      </address>
+      <a href="tel:0584-67-3365" class="foot-tel">0584-67-3365</a>
+    </div>
+  </div>
+
+  <div class="foot-bottom">
+    <span class="credit">© 2026 一柳書道教室</span>
+    <span>ICHIYANAGI &nbsp;SHODO &nbsp;CLASSROOM</span>
+  </div>
+</footer>
+
+<script>
+  // ヘッダー scroll 状態
+  const header = document.getElementById('siteHeader');
+  const onScroll = () => {
+    if (window.scrollY > 40) header.classList.add('is-scrolled');
+    else                     header.classList.remove('is-scrolled');
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  // モバイルメニュー
+  const menuBtn = document.getElementById('menuBtn');
+  const gnav    = document.getElementById('gnav');
+  menuBtn.addEventListener('click', () => {
+    const isOpen = menuBtn.classList.toggle('is-open');
+    gnav.classList.toggle('is-open', isOpen);
+    menuBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  });
+  gnav.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      if (gnav.classList.contains('is-open')) {
+        menuBtn.classList.remove('is-open');
+        gnav.classList.remove('is-open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      }
+    });
+  });
+
+  // Reveal on scroll
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('is-visible');
+        io.unobserve(e.target);
+      }
+    });
+  }, { rootMargin: '0px 0px -10% 0px', threshold: 0.08 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
