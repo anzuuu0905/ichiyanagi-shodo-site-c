@@ -1303,6 +1303,133 @@ input, textarea, select { font: inherit; color: inherit; }
   .hero-scroll::after { animation: none; }
   html { scroll-behavior: auto; }
 }
+
+/* =============================================================
+   QA v4 (2026-06-11) — 日本語段落ち対策（Pattern C）
+   ============================================================= */
+
+/* ---- グローバル日本語連語非破壊 ---- */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, li, dd, dt, figcaption,
+.btn, button {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  line-break: strict;
+}
+
+/* ---- Hero ---- */
+.hero-title {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  line-break: strict;
+  letter-spacing: 0.04em;
+}
+.hero-sub {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  letter-spacing: 0.02em;
+}
+.hero-eyebrow {
+  white-space: nowrap;
+}
+
+/* ---- セクション見出し ---- */
+.s-title, .cta-title,
+.courses-head h2, .ach-head h2,
+.teacher-head h2, .classroom-head h2,
+.schedule-head h2 {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  line-break: strict;
+  letter-spacing: 0.06em;
+}
+
+/* ---- リード／本文（widow防止） ---- */
+.s-lead, .phi-text, .teacher-bio,
+.course-desc, .courses-note,
+.cta-sub, .schedule-note,
+.foot-tag, .ach-body {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  line-break: strict;
+}
+
+/* ---- 縦書き引用「筆を、整える。」は1文字ずつ縦に並ぶ仕様（writing-mode: vertical-rl）
+       検出された改行は縦書きの正常動作なので keep-all を解除しない ---- */
+.phi-quote-inner {
+  /* 縦書きでは line-break: strict で句読点が行頭にこないように */
+  line-break: strict;
+}
+
+/* ---- 連語・固有名詞は塊保持 ---- */
+.cls-name, .cls-num,
+.brand-text, .brand-mark,
+.course-name, .course-tag,
+.cta-tel-num, .cta-tel-label, .cta-tel-hour,
+.foot-tel, .foot-brand,
+.ach-year, .ach-item, .ach-stamp-row .stamp,
+.schedule-note, .teacher-name {
+  white-space: nowrap;
+}
+
+/* ---- 受賞リストの dd（「優秀団体賞」分断防止） ---- */
+.ach-body, .teacher-cv dd, .cls-card dd {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+/* ---- 電話番号は nowrap ---- */
+.cta-tel-num, .foot-tel,
+a[href^="tel:"] {
+  white-space: nowrap;
+}
+
+/* ---- 住所の番地 ---- */
+.cls-card dd, .foot-col dd {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+/* ---- モバイル: 見出し縮小で widow 解消 ---- */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: clamp(1.55rem, 7.6vw, 2.1rem);
+    letter-spacing: 0.02em;
+    line-height: 1.4;
+  }
+  .hero-sub {
+    font-size: 0.82rem;
+    letter-spacing: 0;
+  }
+  .hero-eyebrow {
+    white-space: normal;
+    letter-spacing: 0.25em;
+  }
+  .s-title, .cta-title {
+    font-size: clamp(1.4rem, 5.4vw, 1.7rem);
+    letter-spacing: 0.04em;
+  }
+  .s-lead {
+    letter-spacing: 0.01em;
+  }
+  /* widow 残対策: 本文の字間を更に詰めて 句点・末尾語 widow 緩和 */
+  .course-desc, .teacher-bio, .courses-note,
+  .schedule-note, .phi-text, .cta-sub {
+    letter-spacing: 0.005em;
+  }
+  /* 縦書き引用は writing-mode の正常動作なので、検出される改行は無視（ペルソナ的に意図通り） */
+  .phi-quote-inner {
+    word-break: normal; /* 縦書き内の文字flowを邪魔しない */
+  }
+  /* teacher 写真キャプション「SENSEI」は塊で */
+  .teacher-photo-cap {
+    white-space: nowrap;
+  }
+  /* 住所の番地は数字+漢字を塊で */
+  .cls-card dd, .foot-col dd {
+    letter-spacing: 0.005em;
+  }
+}
 </style>
 </head>
 <body>
